@@ -16,7 +16,7 @@ public class App {
         // valor -> next
         Node<Person> current = node1;
         while (current != null) {
-            System.out.println(current.getValue());
+            System.out.println("Valor: " + current.getValue() + "-> Ref: " + current.getNext().getValue()+"\n");
             current = current.getNext();
         }
 
